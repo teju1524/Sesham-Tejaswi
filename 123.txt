@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>REGISTRATION FORM FOR 5G HACKATHON</title>
+</head>
+<body BGCOLOR="WHITE" TEXT="BLACK">
+	<h1>
+	<p><u>"REGISTRATION FOR 5G HACKATHON"</u></p> 
+	</h1>
+	<img src="5g.jpg" width="550px" height="550px" align="right"/>
+<form>
+    <table>
+	<tr>
+	    <td>
+		Full Name:
+		</td>
+		<td>
+		    <input type="text" placeholder="Full Name" name="">
+		</td>
+	</tr>
+	<tr>
+	    <td>
+		Password:
+	    </td>
+	    <td>
+		<input type="PAssword" placeholder="Password" name="">
+	    </td>
+	</tr>
+	<tr>
+	    <td>
+		Conform Password:
+	    </td>
+	    <td>
+		<input type="Conform PAssword" placeholder="Password" name="">
+	    </td>
+	</tr>	
+	<tr>
+	    <td>
+		Gender:
+	    </td>
+	    <td>
+		<input type="radio" name="Gender">Male
+		<input type="radio" name="Gender">Female
+	    </td>
+	</tr>
+	<tr>
+	    <td>
+		 Date of Birth: 
+	    </td>
+	    <td>
+	<input type="date" placeholder="DOB" name=" "
+       		value="2018-07-22"
+       		min="1990-01-01" 
+		max="2010-12-31">
+	    </td>
+	</tr>
+	<tr>
+	    <td>
+		Email:
+	    </td>
+	    <td>
+		<input type="mail" placeholder="Email" name="">
+	    </td>
+	</tr>
+	<tr>
+	    <td>
+		Conform Email Address:
+	    </td>
+	    <td>
+		<input type="Conform Email Address" placeholder="Email" name="">
+	    </td>
+	</tr>
+	
+	<tr>
+	    <td>
+		Phone no:
+	    </td>
+	    <td>
+		<select>
+		    <option>+91</option>
+		</select>
+                <input type="Phone"placeholder="*********" name="">
+	     </td>
+	</tr>
+	<tr>
+	    <td>
+		Alternate Phone no:
+	    </td>
+	    <td>
+		<select>
+		    <option>+91</option>
+		</select>
+                <input type="Phone"placeholder="*********" name="">
+	     </td>
+	</tr>
+	<tr>
+	    <td>
+		Location:
+	    </td>
+	    <td>
+		<select>
+		   <option>Hyderabad</option>
+		   <option>Bangalore</option>
+		   <option>Mumbai</option>
+		   <option>DElhi</option>
+		   <option>Chennai</option>
+		</select>
+	    </td>
+	</tr>
+	<tr>
+	    <td>
+		Would like to Participate:
+	    </td>
+	    <td>
+		<select>
+		   <option>Individually</option>
+		   <option>Along with Team</option>
+		   <option>Along with Company</option>
+		</select>
+	    </td>
+	</tr>
+	<tr>
+	    <td>
+		Area of Interest:
+	    </td>
+	    <td>
+		<select>
+		   <option>Healthcare,Education&Governance</option>
+		   <option>AgriTech & Livestock</option>
+		   <option>Environment,Public Safety & Disaster Management</option>
+		   <option>Enterprise transformation, Industry 4.0</option>
+		   <option>Smart Cities & Infrastructure</option>
+		   <option>Cyber Security</option>		
+		   <option>Banking,Finance & Insurance</option>		
+		   <option>Logistics & Transportation</option>
+		   <option>Multimedia & Broadcast</option>
+		   <option>Others-Hardware,Computing</option>		
+		</select>
+	    </td>
+	</tr>
+	<tr>
+	     <td>
+		 <input type="Submit" value="Submit" name="">	
+	     </td>
+	</tr>
+    </table>
+</form>
+</body>
+</html>
